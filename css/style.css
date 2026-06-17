@@ -1,0 +1,529 @@
+body {
+    margin: 0;
+    font-family: 'Google Sans', sans-serif;
+    background-image: url("../images/Swirled-background\(Website\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 150px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 20px;
+    background-color: #f5bd00;
+    width: 100%; 
+    padding: 15px 20px;
+}
+
+.menuitem a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.1s ease;
+}
+
+.menuitem a:hover {
+    color: black;
+    text-decoration: underline; 
+}
+
+.menuitem a.active {
+    text-decoration:underline;
+    text-underline-offset: 5px;
+}
+
+.menuitem a.line {
+    text-decoration:underline;
+    text-underline-offset: 5px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+    background-image: url("../images/dancing-header.jpg");
+    min-height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+}
+
+.content h1{
+  text-align: center;
+  margin-bottom: 30px;  
+}
+
+*{
+    box-sizing: border-box;
+}
+.card {
+padding: 20px;
+display: flex;
+align-items: center;
+gap: 20px;
+border-radius: 10px;
+background-color: #fee4fc;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-text {
+    flex: 1;
+}
+
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d7a5d3;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card-button:hover {
+    color: white;
+    background-color: #9f729b;
+    opacity: 0.9;
+}
+
+.section-divider1 {
+    width: 100%;
+    height: 6px;
+    background-color: #0b4f2f;
+    margin-top: 40px;
+}
+
+.westnsouth-section {
+    padding: 50px 20px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.info-card {
+    background-color: #fee4fc;
+    border-radius: 15px;
+    width: 350px;
+    min-height: 450px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.info-card h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.info-card h4 {
+    margin-bottom: 10px;
+}
+
+.info-card h2 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 2rem; 
+}
+
+.info-card p {
+    line-height: 1.6;
+}
+
+.uniform-section h1{
+    display: flex;
+    justify-content: center;
+}
+
+.purchase {
+    width: 320px;
+    background-color: #fee4fc;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.purchase img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.purchase-content {
+   padding: 15px;
+   text-align: center; 
+}
+
+.purchase-content h1{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.uniform-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #fee4fc;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.uniform-button:hover {
+    background-color: #9f729b;
+    color: white; 
+}
+
+.beginner {
+    padding: 20px;
+}
+
+.beginner video {
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #cd2231;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-logo img {
+    width: 120px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    color: rgb(206, 183, 183);
+}
+
+.contact-info {
+    padding: 20px;
+}
+
+.meaning-card {
+    background-color: white;
+    width: 400px;
+    margin: 40px auto;
+    padding: 25;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.meaning-card h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.6rem;
+}
+
+.meaning-card p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.dance-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1)
+}
+
+.dance-section img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.item {
+    display: none;
+}
+
+.sizes label {
+    padding: 8px 12px;
+    border: 1px solid #333;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#s:checked + label,
+#m:checked + label,
+#l:checked + label {
+    background: green;
+    color: white;
+}
+
+.cart-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.lavalava-item {
+    display:none;
+}
+
+#lavalava:checked ~ .cart .lavalava-item {
+    display: block;
+}
+
+#lavalava:checked ~ .cart h3: :after {
+    content: " + $40 = $65"; 
+}
+
+.event {
+    display:flex;
+    justify-content: center;
+}
+
+.intro {
+    display:flex;
+    justify-content: center;
+}
+
+.meaning-card2 {
+    background-color: white;
+    width: 500px;
+    margin: 40px auto;
+    padding: 25;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px; 
+}
+
+.meaning-card2 h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 1.6rem;
+}
+
+.meaning-card2 p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+<input type="text" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Age</label>
+<input type="number" placeholder="Enter your age">
+
+<label>Class Level</label>
+<select>
+<option>Beginner</option>
+<option>Intermediate</option>
+<option>Advanced</option>
+</select>
+
+<button type="submit">Register</button>
+</form>
+</div>
+
+</body>
+</html>
+
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 100vh;
+margin: 0;
+}
+
+.register-box {
+background-color: white;
+padding: 30px;
+width: 350px;
+
+border-radius: 10px;
+box-shadow: 0 0 10px rgba)0,0,0,0.2);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+input,
+select {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+
+border: 1px solid #ccc;
+border-radius: 5px;
+
+box-sizing: border-box;
+}
+
+button {
+width: 100%;
+padding: 12px;
+margin-top: 20px;
+
+background-color: #f5bd00;
+color: white;
+
+border: none;
+border-radius: 5px;
+
+cursor: pointer;
+}
+
+button:hover {
+background-color: #d9a600;
+}
+
+<input type="text" placeholder="Enter your name">
+
+<label>Email</label>
+<input type="email" placeholder="Enter your email">
+
+<label>Age</label>
+<input type="number" placeholder="Enter your age">
+
+<label>Class Level</label>
+<select>
+<option>Beginner</option>
+<option>Intermediate</option>
+<option>Advanced</option>
+</select>
+
+<button type="submit">Register</button>
+</form>
+</div>
+
+</body>
+</html>
+
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 100vh;
+margin: 0;
+}
+
+.register-box {
+background-color: white;
+padding: 30px;
+width: 350px;
+
+border-radius: 10px;
+box-shadow: 0 0 10px rgba)0,0,0,0.2);
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin-top: 10px;
+}
+
+input,
+select {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+
+border: 1px solid #ccc;
+border-radius: 5px;
+
+box-sizing: border-box;
+}
+
+button {
+width: 100%;
+padding: 12px;
+margin-top: 20px;
+
+background-color: #f5bd00;
+color: white;
+
+border: none;
+border-radius: 5px;
+
+cursor: pointer;
+}
+
+button:hover {
+background-color: #d9a600;
+}
